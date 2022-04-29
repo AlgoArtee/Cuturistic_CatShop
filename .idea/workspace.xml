@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="858de20d-12a7-4d0e-a7a5-9baa91f29a81" name="Changes" comment="Upload">
+    <list default="true" id="858de20d-12a7-4d0e-a7a5-9baa91f29a81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="15a473e8-d131-4531-bce8-b1c844aeec2e" />
+        <option name="url" value="https://github.com/hsbpl/SoSe22_IFI_Prog2_Gruppe1" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651233961399</updated>
       <workItem from="1651233963095" duration="5211000" />
-      <workItem from="1651255580539" duration="2773000" />
+      <workItem from="1651255580539" duration="4467000" />
+      <workItem from="1651260097711" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="Upload">
       <created>1651256135441</created>
@@ -66,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651256135441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload">
+      <created>1651258450766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651258450766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +105,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
