@@ -1,1 +1,3 @@
-# SoSe22_IFI_Prog2_Gruppe1
+# A futuristic shop for cat stuff - in Java
+
+Documentation in progress... =^._.^= ∫
