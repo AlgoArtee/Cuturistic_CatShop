@@ -6,6 +6,8 @@ import ModuleCommon.valueobjects.*;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import static ModuleCommon.valueobjects.LogInPhase.LOGGED_IN;
@@ -21,12 +23,12 @@ import static ModuleCommon.valueobjects.LogInPhase.LOGGED_IN;
 public class CustomerManager extends UserManager implements Serializable {
 
 
-    //PersistenceManager persistenceManager = new FilePersistenceManager();
-
     public CustomerManager() throws IOException, ClassNotFoundException {
         try {
             //addFirstCustomers();
             userList = readUserList();
+
+
         }catch (IOException ioe){
             throw new IOException();
         }
@@ -70,6 +72,7 @@ public class CustomerManager extends UserManager implements Serializable {
             if (!currentUserList.containsKey(name)) {
                 currentUserList.put(name, newCustomer);
                 this.persistenceManager.writeUserList(currentUserList);
+                SessionState.onlineUsers.add(newCustomer);
             } else {
                 throw new UserAlreadyExistsException(name);
             }
@@ -87,6 +90,8 @@ public class CustomerManager extends UserManager implements Serializable {
             addCustomer(newName, password, address);
             SessionState.logInPhase = LOGGED_IN;
             SessionState.userType = UserType.CUSTOMER;
+
+            // Investigate:
             setCurrentUser(getCurrentUser(newName));
         } catch (UserAlreadyExistsException uaee) {
             throw new UserAlreadyExistsException(newName);
@@ -98,7 +103,9 @@ public class CustomerManager extends UserManager implements Serializable {
     }
 
     protected void addToCart(int itemToAdd, int itemAmount){
+
         getCurrentCustomer().addToCart(itemToAdd, itemAmount);
+
     }
 
 
@@ -108,7 +115,7 @@ public class CustomerManager extends UserManager implements Serializable {
 
     public String getItemsInCartToPrintThem() throws IOException, ClassNotFoundException {
         try {
-            return getCurrentCustomer().getCurrentCart().getCartItemsAsString();
+            return getCurrentCustomer().viewCart();
         }catch (IOException ioe) {
             throw new IOException();
         }catch (ClassNotFoundException cnfe) {
@@ -116,9 +123,15 @@ public class CustomerManager extends UserManager implements Serializable {
         }
     }
 
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+    // Investigate:
+
     public String viewCart() throws IOException, ClassNotFoundException {
         try {
-            return getCurrentCart().getCartItemsAsString();
+
+            return getCurrentCustomer().viewCart();
+
         }catch (IOException ioe) {
             throw new IOException();
         }catch (ClassNotFoundException cnfe) {
@@ -126,27 +139,45 @@ public class CustomerManager extends UserManager implements Serializable {
         }
     }
     public void clearCart(){
-        getCurrentCart().clearCart();
+
+            getCurrentCustomer().clearCart();
+
     }
 
-    //synchronisiert, da gleichzeitiges Lesen und Hinzufügen eines neuen Objektes zur enthaltenen HashMap oder
-    // gleichzeitiges Lesen und Schreiben desselben Objektes erfolgen kann. Beides ist nicht threadsicher.
-    public Cart getCurrentCart(){
-        return getCurrentCustomer().getCurrentCart();
-    }
 
     private Customer getCurrentCustomer(){
+
+
+
+        String userThread = Thread.currentThread().getName();
+        System.out.println(userThread);
+
+        int onlineUserNumber = Integer.parseInt(userThread.replaceAll("\\D+",""));
+        System.out.println(onlineUserNumber);
+
+        SessionState.currentUser = SessionState.onlineUsers.get(onlineUserNumber);
+        System.out.println(SessionState.currentUser.getName());
+
         return (Customer) SessionState.currentUser;
     }
     protected void setCurrentUser(User user){
+
+
+
         SessionState.currentUser = user;
     }
     private User getCurrentUser(String name) throws IOException, ClassNotFoundException {
         return getCurrentUserList().get(name);
     }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
     private Map<String, User> getCurrentUserList() throws IOException, ClassNotFoundException {
         //Map<String, User> currentUserList = this.persistenceManager.readUserList();
         //return currentUserList;
         return this.userList;
     }
+
 }

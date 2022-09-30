@@ -11,7 +11,7 @@ import java.io.Serializable;
 public class User implements Serializable {
     public String name = "";
     protected int number = 0;
-    public String password = "";
+    private String password = "";
     protected UserType userType = null;
 
     public User(String name, int number, String password){

@@ -9,6 +9,8 @@ import ModuleServer.persistence.FilePersistenceManager;
 import ModuleServer.persistence.PersistenceManager;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import static ModuleCommon.valueobjects.LogInPhase.LOGGED_IN;
@@ -26,6 +28,7 @@ import static ModuleCommon.valueobjects.LogInPhase.LOGGED_OUT;
 
 public class LogInManager{
     private PersistenceManager persistenceManager = new FilePersistenceManager();
+
 
     public LogInManager() throws IOException {
     }
@@ -50,6 +53,9 @@ public class LogInManager{
                 setLogInPhase(LOGGED_IN);
                 setUserType(userType);
                 setCurrentUser(getCurrentUser(name));
+
+                SessionState.onlineUsers.add(getCurrentUser(name));
+                System.out.println(SessionState.onlineUsers.get(0));
             } else {
                 throw new PasswordNotExistendException();
             }

@@ -33,6 +33,37 @@ public class Customer extends User implements Serializable {
         }
     }
 
+    public String viewCart() throws IOException, ClassNotFoundException {
+
+        /*
+        String cartString="";
+
+        if (this.myCart.getCartList().isEmpty())
+        {
+            cartString = "Your Cart is Empty! :(";
+
+        }
+        else
+        {
+            for (Map.Entry entry : this.myCart.getCartList().entrySet()) {
+                System.out.println("(Only for testing purposes) item and amount: " + entry);
+                cartString = cartString + entry.toString() + "_";
+            }
+
+        }
+
+        return cartString; */
+
+        return this.myCart.getCartItemsAsString();
+    }
+
+
+    public void clearCart(){
+        this.myCart.clearCart();
+    }
+
+
+
     public Cart getCurrentCart(){
         return this.myCart;
     }

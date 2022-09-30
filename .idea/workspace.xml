@@ -4,93 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="858de20d-12a7-4d0e-a7a5-9baa91f29a81" name="Changes" comment="Upload">
-      <change afterPath="$PROJECT_DIR$/Items.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Users.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ModuleClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/GenomePurrnalysis_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/alexacatupdate_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/birdcookie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/cardboardbox_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/catablet_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/catchynames_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/catpi_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/catscan_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/catwine_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/hellopurrrse_10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/networcat_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/nighthunt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/robocat_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/vpurrsimulator_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/net/CatShopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/cui/ShopClientCUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/FileMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/ItemDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/ItemTableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/LogTableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/ShopClientGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/UserTableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/WindowCloser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/AddItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/AddStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/LogDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelAddCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelAddItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelAddStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelCustomerShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelCustomerShopItemFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelCustomerShopTop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelEmployeeShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelEmployeeShopItemFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelItemDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelItemDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelSearchBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleClient/ui/gui/panels/PanelSignUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/BulkSizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/ItemAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/ItemNotExistendException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/ItemNotInCartException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/NameNotExistendException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/NotEnoughItemInStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/PasswordNotExistendException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/Exceptions/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/IShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/ModuleCommon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/BulkItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/LogInPhase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Receipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/ModuleServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/CustomerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/ItemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/LogInManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/SessionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/StaffManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/net/CatShopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/net/ClientRequestProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/persistence/FilePersistenceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/persistence/PersistenceManager.java" afterDir="false" />
+    <list default="true" id="858de20d-12a7-4d0e-a7a5-9baa91f29a81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/valueobjects/Costumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/valueobjects/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Users.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuleServer/domain/CustomerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuleServer/domain/CustomerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuleServer/domain/LogInManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuleServer/domain/LogInManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuleServer/domain/SessionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuleServer/domain/SessionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModuleServer/net/CatShopServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModuleServer/net/CatShopServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -144,8 +72,8 @@
       <recent name="C:\Users\Mewxy\IdeaProjects\Cuturistic_CatShop\src\ModuleClient" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShopClientGUI">
-    <configuration name="CatShopServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ModuleClient.ui.gui.ShopClientGUI">
+    <configuration name="CatShopServer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ModuleServer.net.CatShopServer" />
       <module name="HelloShop" />
       <extension name="coverage">
@@ -158,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopClientGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ModuleClient.ui.gui.ShopClientGUI" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ModuleClient.ui.gui.ShopClientGUI" />
       <module name="HelloShop" />
       <extension name="coverage">
@@ -171,10 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CatShopServer" />
+      <item itemvalue="Application.ModuleClient.ui.gui.ShopClientGUI" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShopClientGUI" />
-        <item itemvalue="Application.CatShopServer" />
+        <item itemvalue="Application.ModuleClient.ui.gui.ShopClientGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +120,12 @@
       <workItem from="1651233963095" duration="5211000" />
       <workItem from="1651255580539" duration="2773000" />
       <workItem from="1662605625379" duration="3316000" />
-      <workItem from="1662609688209" duration="2509000" />
+      <workItem from="1662609688209" duration="3465000" />
+      <workItem from="1664061249325" duration="663000" />
+      <workItem from="1664062064596" duration="16000" />
+      <workItem from="1664482711107" duration="13181000" />
+      <workItem from="1664547603341" duration="19166000" />
+      <workItem from="1664568612915" duration="1561000" />
     </task>
     <task id="LOCAL-00001" summary="Upload">
       <created>1651256135441</created>
@@ -198,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651256135441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NetworkVersion1">
+      <created>1662621840217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662621840217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload" />
+    <MESSAGE value="NetworkVersion1" />
+    <option name="LAST_COMMIT_MESSAGE" value="NetworkVersion1" />
   </component>
 </project>
