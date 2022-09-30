@@ -8,7 +8,6 @@
       <change afterPath="$PROJECT_DIR$/Items.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Users.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleClient/ModuleClient.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/GenomePurrnalysis_5.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleClient/itemresources/alexacatupdate_8.jpg" afterDir="false" />
@@ -64,30 +63,22 @@
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/ModuleCommon.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Address.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/BulkItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Customer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Employee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Item.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/LogInPhase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/Receipt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleCommon/valueobjects/UserType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/ModuleServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/CustomerManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/EventType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/ItemManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/Log.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/LogInManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/SessionState.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/Shop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/StaffManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/domain/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModuleServer/net/CatShopServer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/net/ClientRequestProcessor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/persistence/FilePersistenceManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ModuleServer/persistence/PersistenceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/valueobjects/Costumer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/valueobjects/Item.java" beforeDir="false" />
@@ -171,6 +162,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ShopClientGUI" />
+      <item itemvalue="Application.CatShopServer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ShopClientGUI" />
