@@ -29,7 +29,7 @@ public class CatShopServer {
             Thread t = new Thread(c);
             t.start();
 
-            //System.out.println(t.getName());
+            System.out.println(t.getName());
 
             System.err.println("Client connected!");
         }

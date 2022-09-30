@@ -137,4 +137,8 @@ public class Cart implements Serializable {
     public Map<String, String> getItemNameQuantity(){
         return itemNameQuantity;
     }
+
+    public int getCustomerNumber() {
+        return this.customerNumber;
+    }
 }
